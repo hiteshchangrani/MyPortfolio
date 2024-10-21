@@ -213,13 +213,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/CryptoGalleryLogo.jpg"),
+      image: require("./assets/images/CryptoGalleryLogo.png"),
       projectName: "CryptoGallery",
       projectDesc: "A cryto gallery that keeps a real-time track of all currencies",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/hiteshchangrani/CryptoGallery"
         }
       ]
     }
