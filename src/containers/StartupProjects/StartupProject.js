@@ -44,11 +44,19 @@ export default function StartupProject() {
                   }
                 >
                   {project.image ? (
-                    <div className="project-image">
+                    <div className="project-image"
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      // height: '200px', // Set container height as needed
+                    }}
+                    >
                       <img
                         src={project.image}
                         alt={project.projectName}
                         className="card-image"
+                        // style={{ width: '350px', height: '200px' }}
                       ></img>
                     </div>
                   ) : null}

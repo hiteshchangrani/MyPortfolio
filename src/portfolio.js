@@ -171,6 +171,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer Intern",
+      company: "Brimo Software Solutions",
+      companylogo: require("./assets/images/brimo.png"),
+      date: "January 2025 – May 2025 (5-Months)",
+      desc: "Developed robust backend systems using Python, Django, and GraphQL, enabling scalable APIs and data-driven features.",
+      descBullets: [
+        "Developed backend systems with Python, Django, and GraphQL, ensuring scalable API architecture and efficient data handling.",
+        "Designed and implemented AI agents for intelligent automation, including a log analysis agent for anomaly detection.",
+        "Automated data workflows using Python, Celery, and Azure Data Lake, creating end-to-end pipelines for seamless data ingestion and storage."
+      ]
+    },
+    {
       role: "Frontend Developer",
       company: "CSRBOX",
       companylogo: require("./assets/images/csrbox.png"),
@@ -200,6 +212,30 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Here are few of my projects",
   projects: [
+    {
+      image: require("./assets/images/magicCaptions.png"),
+      projectName: "MagicCaptions",
+      projectDesc: "Developed a full-stack web application that can add subtitles to any video.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://magic-captions.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/orator.png"),
+      projectName: "Orator",
+      projectDesc: "Developed a full-stack web application that can covert your text to speech.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://orator-amplify.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/paymentsAppLogo.jpg"),
       projectName: "PaymentsApp",
@@ -285,7 +321,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
